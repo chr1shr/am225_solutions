@@ -1,0 +1,4 @@
+common.o: common.cc common.hh
+ae_puzzle.o: ae_puzzle.cc ae_puzzle.hh letter.hh adj_table.hh common.hh
+letter.o: letter.cc letter.hh common.hh
+adj_table.o: adj_table.cc adj_table.hh
