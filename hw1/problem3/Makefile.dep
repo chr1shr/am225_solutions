@@ -1,0 +1,2 @@
+mersenne.o: mersenne.cc mersenne.hh
+sieve.o: sieve.cc sieve.hh

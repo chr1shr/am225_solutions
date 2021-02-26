@@ -1,0 +1,4 @@
+sudoku.o: sudoku.cc sudoku.hh
+sudoku_serial.o: sudoku_serial.cc sudoku_serial.hh sudoku.hh
+sudoku_parallel.o: sudoku_parallel.cc sudoku_parallel.hh sudoku.hh \
+ sudoku_serial.hh

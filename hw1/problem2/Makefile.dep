@@ -1,0 +1,1 @@
+c_automaton.o: c_automaton.cc c_automaton.hh custom_rng.hh
