@@ -1,0 +1,3 @@
+sol_adapt.o: sol_adapt.cc sol_adapt.hh
+sol_fsal.o: sol_fsal.cc sol_fsal.hh sol_adapt.hh
+sol_ckr.o: sol_ckr.cc sol_ckr.hh sol_adapt.hh
