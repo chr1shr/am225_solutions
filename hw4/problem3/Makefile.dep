@@ -1,0 +1,2 @@
+lax_wend.o: lax_wend.cc lax_wend.hh
+diffuse.o: diffuse.cc diffuse.hh

@@ -1,0 +1,6 @@
+poisson_fft.o: poisson_fft.cc poisson_fft.hh /opt/local/include/fftw3.h
+poisson_schur.o: poisson_schur.cc poisson_schur.hh conj_grad.hh blas.h \
+ subdomain.hh poisson_fft.hh /opt/local/include/fftw3.h
+subdomain.o: subdomain.cc subdomain.hh poisson_fft.hh \
+ /opt/local/include/fftw3.h poisson_schur.hh conj_grad.hh blas.h
+conj_grad.o: conj_grad.cc conj_grad.hh blas.h
